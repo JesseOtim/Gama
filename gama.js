@@ -219,13 +219,13 @@ let dy = 0;
 
 function drawSnake() {
     snake.forEach((segment, index) => {
-        ctx.fillStyle = (index === 0) ? "green" : "lightgreen";
+        ctx.fillStyle = (index === 0) ? "green" : "darkgreen";
         ctx.fillRect(segment.x, segment.y, snakeSize, snakeSize);
     });
 }
 
 function drawFood() {
-    ctx.fillStyle = "red";
+    ctx.fillStyle = "orangered";
     ctx.fillRect(food.x, food.y, snakeSize, snakeSize);
 }
 
