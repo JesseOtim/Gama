@@ -11,9 +11,13 @@ body {
     text-align: center;
 }
 
+h1{
+    font-size: 40px;
+    color:orangered;
+}
+
 h1.text-center {
     margin-top: 0; /* Remove top margin for the header */
-    color:darkgreen;
 }
 
 canvas{
