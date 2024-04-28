@@ -13,6 +13,7 @@ body {
 
 h1.text-center {
     margin-top: 0; /* Remove top margin for the header */
+    color:darkgreen;
 }
 
 canvas{
