@@ -23,7 +23,7 @@ h1.text-center {
 
 canvas{
     border: 2px solid red;
-    border-radius: 10%;
+    border-radius: 5%;
     display: block;
     margin: 0 auto;
     margin-top: 40px;
